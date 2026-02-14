@@ -1,17 +1,22 @@
 {
   "name": "db-backend",
   "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeno206/dashboard-projectbackend-.git"
+  },
+  "author": "subha dhiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeno206/dashboard-projectbackend-/issues"
+  },
+  "homepage": "https://github.com/zeno206/dashboard-projectbackend-#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
+    "express": "^5.2.1"
   }
 }
